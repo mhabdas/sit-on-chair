@@ -1,0 +1,49 @@
+a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: 500;
+    line-height: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+    color: $grey;
+    font-weight: 600;
+    text-transform: uppercase;
+    border-bottom: 5px solid $primary-color;
+    width: 20rem;
+    margin: 0 0 4rem;
+    padding: 3rem 0 0.50rem;
+    @media (max-width: 1020px) {
+        align-self: center;
+        text-align: center;
+    }
+}
+
+h3 {
+    font-size: 1.50rem;
+    color: $primary-color;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 600;
+    border-bottom: 5px solid $primary-color;
+    width: 8.75rem;
+}
+
+.bold {
+    color: $primary-color;
+    font-weight: 700;
+}

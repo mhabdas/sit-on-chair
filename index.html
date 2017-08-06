@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CodersLab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700" rel="stylesheet">
+    <script src="assets/js/app.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="main-width">
+            <div class="logo">
+                Sit <span class="bold">on</span> chair
+            </div>
+            <nav>
+                <ul>
+                    <li id="dropdownButton">
+                        <a href="#">O firmie</a>
+                        <ul class="dropdown-menu hidden">
+                            <li>
+                                <a href="#">Aktualności</a>
+                            </li>
+                            <li>
+                                <a href="#">Nasz team</a>
+                            </li>
+                            <li>
+                                <a href="#">Historia</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">Galeria</a>
+                    </li>
+                    <li>
+                        <a href="#">Kontakt</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="slider-section">
+        <div class="main-width">
+            <div class="arrow" id="js-arrowPrev">
+                &lt;
+            </div>
+                <ul class="chair-slides">
+                    <li class="js-slides"><img src="images/black_chair.png" alt="Black chair"></li>
+                    <li class="js-slides"><img src="images/red.png" alt="Red chair"></li>
+                    <li class="js-slides"><img src="images/orange.png" alt="Orange chair"></li>
+                </ul>
+            <div class="text">
+                <h1>Sit <span class="bold">on</span> our <span class="bold">chair</span></h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin et mauris luctus, commodo tortor sed, elementum massa. Ut interdum sapien eros, et imperdiet elit vestibulum sodales. Aenean est nisl, vulputate at sagittis nec, vehicula nec nunc.
+                </p>
+                <button>
+                <a href="#">Zobacz więcej</a>
+            </button>
+            </div>
+            <div class="arrow" id="js-arrowNext">
+                &gt;
+            </div>
+        </div>
+    </section>
+    <section class="gallery-section">
+        <div class="main-width">
+            <article class="chair">
+                <img src="images/box1_img.jpg">
+                <div>
+                    <h4>Chair CLAIR</h4>
+                </div>
+            </article>
+            <article class="chair">
+                <img src="images/box2_img.jpg">
+                <div>
+                    <h4>Chair MARGARITA</h4>
+                </div>
+            </article>
+
+            <article>
+                <h4>Finds all inputs</h4>
+                <p>Finds all inputs that are not checked and highlights the next sibling span. Notice there is no change when clicking the checkboxes since no click events have been linked.</p>
+                <p> Notice there is no change when clicking the checkboxes since no click events have been</p>
+            </article>
+        </div>
+    </section>
+    <section class="pricing-section">
+        <div class="main-width">
+            <h2>Cennik</h2>
+            <div class="row">
+                <div class="price">
+                    <div class="circle">
+                    </div>
+                    <h3>Basic plan</h3>
+                    <div class="price-circle">
+                        <p>85<sup>99</sup></p>
+                        <p>PLN/MSC</p>
+                    </div>
+                    <ul>
+                        <li>Zakup towaru + dowóz</li>
+                        <li>Serwis</li>
+                    </ul>
+                    <button>
+                        <a href="#">Dołącz</a>
+                    </button>
+                </div>
+                <div class="price">
+                    <div class="circle">
+                    </div>
+                    <h3>Standard plan</h3>
+                    <div class="price-circle">
+                        <p>95<sup>99</sup></p>
+                        <p>PLN/MSC</p>
+                    </div>
+
+                    <ul>
+                        <li>Zakup towaru + dowóz</li>
+                        <li>Serwis</li>
+                        <li>Gwarancja 5 lat</li>
+                    </ul>
+                    <button>
+                        <a href="#">Dołącz</a>
+                    </button>
+                </div>
+                <div class="price">
+                    <div class="circle">
+                    </div>
+                    <h3>Advance plan</h3>
+                    <div class="price-circle">
+                        <p>211<sup>00</sup></p>
+                        <p>PLN/MSC</p>
+                    </div>
+                    <ul>
+                        <li>Zakup towaru + dowóz</li>
+                        <li>Serwis</li>
+                        <li>Gwarancja 5 lat</li>
+                        <li>Porady projektanta</li>
+                    </ul>
+                    <button>
+                        <a href="#">Dołącz</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="application ">
+        <div class="main-width">
+            <section class="choice_part">
+                <div>
+                    <h2>SKOMPONUJ SWOJE KRZESŁO</h2>
+                </div>
+                <div class="form">
+                    <div class="drop_down_list">
+                        <span class="list_label">Wybierz rodzaj</span>
+                        <span class="list_arrow"></span>
+                        <ul class="list_panel first-list">
+                            <li data-price="200">Clair</li>
+                            <li data-price="250">Margarita</li>
+                            <li data-price="300">Selena</li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_list">
+                        <span class="list_label">Wybierz kolor</span>
+                        <span class="list_arrow"></span>
+                        <ul class="list_panel second-list">
+                            <li data-price="0">Czerwony</li>
+                            <li data-price="0">Czarny</li>
+                            <li data-price="0">Pomarańczowy</li>
+                        </ul>
+                    </div>
+                    <div class="drop_down_list">
+                        <span class="list_label">Wybierz materiał</span>
+                        <span class="list_arrow"></span>
+                        <ul class="list_panel third-list">
+                            <li data-price="0">Tkanina</li>
+                            <li data-price="100">Skóra</li>
+                        </ul>
+                    </div>
+                    <div class="check-box">
+                        <input type="checkbox" class="checkbox" id="transport" data-price="200">
+                        <label for="transport">Transport</label>
+                    </div>
+                </div>
+            </section>
+
+            <section class="image_part">
+                <img src="images/red_chair.png">
+            </section>
+
+            <section class="summary_part">
+                <div class="align_right">
+                    <h2>PODSUMOWANIE</h2>
+                </div>
+
+                <div class="summary_panel">
+                    <div class="panel_left">
+                        <h5 class="title">Twój fotel</h5>
+                        <span class="color"></span>
+                        <span class="pattern"></span>
+                        <span class="transport"></span>
+                    </div>
+                    <div class="panel_right">
+                        <h5 class="title value"></h5>
+                        <span class="color value"></span>
+                        <span class="pattern value"></span>
+                        <span class="transport value"></span>
+                    </div>
+                </div>
+                <div class="sum_part">
+                    <div class="sum_label">SUMA</div>
+                    <div class="sum"><strong></strong></div>
+                </div>
+                <a href="" class="green_button">Zamawiam</a>
+            </section>
+        </div>
+    </section>
+
+
+    <section class="contact-form">
+        <div class="main-width">
+            <div class="contact-form-data">
+                <h2>Kontakt</h2>
+                <form>
+                    <input type="text" placeholder="Imię">
+                    <input type="text" placeholder="email">
+                    <textarea>Wiadomość</textarea>
+                </form>
+            </div>
+            <div class="contact-form-submit">
+                <img src="images/red_chair.png">
+                <form>
+                    <input type="checkbox" class="checkbox">
+                    <p>Zgadzam się na przetwarzanie danych osobowych</p>
+                </form>
+                <button><a href="#">wyślij</a></button>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="main-width">
+            <div class="copy">
+                <p>
+                    Copyright 2017 | All rights reserved - Sit on Chair
+                </p>
+            </div>
+            <div class="media-icons">
+                <a href="#"><img src="images/flickr.png"></a>
+                <a href="#"><img src="images/vimeo.png"></a>
+                <a href="#"><img src="images/pinterest.png"></a>
+                <a href="#"><img src="images/twitter.png"></a>
+                <p>Sit <span class="bold">on</span> chair</p>
+            </div>
+        </div>
+    </footer>
+</body>
