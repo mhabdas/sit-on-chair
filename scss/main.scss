@@ -103,7 +103,7 @@ header {
 /*
 Slider section
 */
-.slider-section {
+#slider-section {
     width: 100%;
     background: linear-gradient(white, $middle-grey);
 
@@ -195,7 +195,7 @@ Slider section
 /*
 Gallery section
 */
-.gallery-section {
+#gallery-section {
     width: 100%;
 
     .main-width {
@@ -249,7 +249,7 @@ Gallery section
     }
 }
 /* Pricing section */
-.pricing-section {
+#pricing-section {
     width: 100%;
     background-color: $lightest-grey;
 
@@ -382,7 +382,7 @@ Gallery section
     }
 }
 /* Calculator section */
-.application {
+#application {
     background-color: #f9f9f9;
     padding-bottom: 2rem;
     width: 100%;
@@ -584,7 +584,7 @@ Gallery section
     }
 }
 /* Form section */
-.contact-form {
+#contact-form {
     width: 100%;
     margin-bottom: 1rem;
 
