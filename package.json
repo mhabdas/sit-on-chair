@@ -10,13 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^4.0.0",
+    "gulp-autoprefixer": "^4.1.0",
     "gulp-concat": "^2.6.1",
-    "gulp-imagemin": "^3.3.0",
-    "gulp-jshint": "^2.0.4",
+    "gulp-imagemin": "^3.4.0",
+    "gulp-jshint": "^2.1.0",
     "gulp-minify": "^1.0.0",
-    "gulp-sass": "^3.1.0",
-    "gulp-sourcemaps": "^2.6.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-sourcemaps": "^2.6.4",
     "jshint": "^2.9.5"
   }
 }
