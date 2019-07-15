@@ -20,6 +20,7 @@
     "hoek": "^5.0.3",
     "jshint": "^2.10.2",
     "lodash": "^4.17.14",
+    "lodash.merge": "^4.6.2",
     "lodash.template": "^4.5.0"
   }
 }
